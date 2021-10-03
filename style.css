@@ -13,7 +13,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-black: black;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -83,10 +83,11 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: var(--clr-black);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    color:#fff;
 }
 
 header {
@@ -127,7 +128,7 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: var(--clr-black);
 }
 .nav-toggle {
     padding: .5em;
@@ -172,7 +173,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-black);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -278,7 +279,7 @@ header {
 }
 .contact__info{
     background: #111;
-    color: var(--clr-accent);
+    color:#fff;
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
